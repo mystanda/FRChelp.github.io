@@ -78,7 +78,7 @@
       <!-- Prevent spam -->
       <input type="hidden" name="_captcha" value="false">
 
-      <!-- Correct FormSubmit redirect -->
+      <!-- Correct redirect -->
       <input type="hidden" name="_next" value="https://mystanda.github.io/FRCHelp.github.io/messagesent.html">
 
       <label>Email</label>
@@ -91,14 +91,13 @@
       <input type="number" name="Team Number" required min="1" step="1" />
 
       <label>Category</label>
-<select name="Category" required>
-  <option value="Build">Build</option>
-  <option value="Programming">Programming</option>
-  <option value="Electrical">Electrical</option>
-  <option value="Design">Design</option>
-  <option value="Other">Other</option>
-</select>
-
+      <select name="Category" required>
+        <option value="Build">Build</option>
+        <option value="Programming">Programming</option>
+        <option value="Electrical">Electrical</option>
+        <option value="Design">Design</option>
+        <option value="Other">Other</option>
+      </select>
 
       <label>Your Question</label>
       <textarea name="Question" required></textarea>
@@ -115,7 +114,7 @@
       // Give FormSubmit time to receive the data
       setTimeout(() => {
         window.location.href = "messagesent.html";
-      }, 300);
+      }, 1000); // safer delay
     });
   </script>
 
