@@ -1,5 +1,5 @@
 Link To The Website:
-<br><a href="mystanda.github.io/FRCHelp.github.io/">mystanda.github.io/FRCHelp.github.io/</a>
+<br>[mystanda.github.io/FRCHelp.github.io/](https://mystanda.github.io/FRCHelp.github.io/)
 
 <br>FRC Help System for Robotics Questions
 <br>Maintained by Students
